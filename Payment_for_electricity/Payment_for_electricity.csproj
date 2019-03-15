@@ -43,11 +43,28 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AbstractClasses\Client.cs" />
+    <Compile Include="AbstractClasses\Table.cs" />
+    <Compile Include="AbstractClasses\Tariff.cs" />
+    <Compile Include="ClientsModels\ClientLimit.cs" />
+    <Compile Include="ClientsModels\ClientOrdinary.cs" />
+    <Compile Include="ClientsModels\ClientPreferential.cs" />
+    <Compile Include="ClientsModels\ClientForHeatingNeeds.cs" />
+    <Compile Include="Collections\ClientCollection.cs" />
+    <Compile Include="Comparators\ClientCompare.cs" />
+    <Compile Include="DataTypes\ClientType.cs" />
+    <Compile Include="DataTypes\TariffType.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TarifsModels\TariffLimit.cs" />
+    <Compile Include="TarifsModels\TariffOrdinary.cs" />
+    <Compile Include="TarifsModels\TariffPreferential.cs" />
+    <Compile Include="TarifsModels\TariffForHeatingNeeds.cs" />
+    <Compile Include="VisualExtends\ClientTable.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
